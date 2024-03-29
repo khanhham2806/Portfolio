@@ -48,8 +48,8 @@ const Projects = () => {
                 member: 1,
                 role: "Developer",
                 features: "Xem các thông tin cơ bản của cá nhân người sử dụng",
-                demo: "",
-                github: "https://github.com/KSneaker"
+                demo: "https://portfolio-tau-nine-13.vercel.app/",
+                github: "https://github.com/khanhham2806/Portfolio"
             }
 
         },
@@ -129,6 +129,7 @@ const Projects = () => {
                                     <li><span><strong>Vai trò:</strong> {dataDetail?.detail.role}</span></li>
                                     <li><span><strong>Chức năng:</strong> {dataDetail?.detail.features}</span></li>
                                     <li><span><strong>Github:</strong><a href={dataDetail?.detail.github}> {dataDetail?.detail.github}</a> </span></li>
+                                    <li><span><strong>Demo:</strong><a href={dataDetail?.detail.demo}> {dataDetail?.detail.demo}</a> </span></li>
                                 </ul>
                             </Modal>
                         </div>
