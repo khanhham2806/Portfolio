@@ -48,7 +48,7 @@ const Projects = () => {
                 member: 1,
                 role: "Developer",
                 features: "Xem các thông tin cơ bản của cá nhân người sử dụng",
-                demo: "https://portfolio-tau-nine-13.vercel.app/",
+                demo: "https://portfolio-doan-van-khanh.vercel.app/",
                 github: "https://github.com/khanhham2806/Portfolio"
             }
 
